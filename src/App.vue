@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">home</router-link> |
+      <router-link to="/lifeCycle">lifeCycle</router-link> |
+      <router-link to="/about">about</router-link> |
+      <router-link to="/router">router</router-link> |
+      <router-link to="/vuex">vuex</router-link> |
+      <router-link to="/axios">axios</router-link> |
     </div>
     <router-view/>
   </div>
@@ -15,6 +19,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 20px;
 }
 
 #nav {

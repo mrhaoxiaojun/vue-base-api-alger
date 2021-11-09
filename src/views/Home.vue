@@ -13,6 +13,12 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
-  }
+  },
+  mounted() {
+    let userId = this.$route.query.id
+    if(userId) {
+      console.log(this.$route.query)
+    }
+  },
 }
 </script>
